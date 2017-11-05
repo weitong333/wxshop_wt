@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-touch-fullscreen" content="yes"  />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no">
+	<title>移动端前端实训</title>
+	<link rel="apple-touch-icon-precomposed" href="images/haoroomsicon.jpg" />
+	<link rel="apple-touch-startup-image" href="images/haoroomsicon.jpg" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+                     <!-- 首页 -->
+<!--固定头部-->
+<nav id="nav">
+      <ul class="navlist">
+        <li id="n_0"><a href="index.html"><span class="active"></span></a></li>
+        <li id="n_1"><a href="productlist.html" ><span></span></a></li>
+        <li id="n_2"><a href="cart.html" ><span></span></a></li>
+        <li id="n_3"><a href="userinfo.html" ><span></span></a></li>
+     </ul>
+</nav>
+<!--slide图片-->
+<section class="indexslider">
+	  <div class="swiper-container" id="topSlider">
+        <div class="swiper-wrapper">
+            <!-- 第一张轮播图 -->
+	        <div class="swiper-slide">
+		        <img src="images/sliderbanner/1.jpg">
+		        <div class="topzhezhao">
+		        	<div class="leftslidecontent">
+		        		<p>微信价<span>49元</span></p>
+		        		<p>原味无漂白开心果袋装休闲零食小吃坚果干果炒货</p>
+		        	</div>
+		        	<a href="productlist.html">立即购买</a>
+		        </div>
+	        </div>
+            <!-- 第二张轮播图 -->
+	        <div class="swiper-slide"><img src="images/sliderbanner/2.jpg">
+		        <div class="topzhezhao">
+		        	<div class="leftslidecontent">
+		        		<p>微信价<span>25.9元</span></p>
+		        		<p>综合果仁 每日坚果混合果仁零食小吃组合果干大礼包</p>
+		        	</div>
+		        	<a href="productlist.html">立即购买</a>
+		        </div>
+	        </div>
+            <!--第三张轮播图-->
+	        <div class="swiper-slide"><img src="images/sliderbanner/3.jpg">
+		        <div class="topzhezhao">
+		        	<div class="leftslidecontent">
+		        		<p>微信价<span>33元</span></p>
+		        		<p>奶油味夏威夷果 休闲口味特产干货干果坚果零食小吃</p>
+		        	</div>
+		        	<a href="productlist.html">立即购买</a>
+		        </div>
+	        </div>
+            <!--第四张轮播图-->
+	        <div class="swiper-slide"><img src="images/sliderbanner/4.jpg">
+		        <div class="topzhezhao">
+		        	<div class="leftslidecontent">
+		        		<p>微信价<span>15.9元</span></p>
+		        		<p>开口笑甘栗糖炒板栗仁熟制即食栗子零食特产干果坚果炒货</p>
+		        	</div>
+		        	<a href="productlist.html">立即购买</a>
+		        </div>
+	        </div>
+        </div>
+    </div>
+</section>
+<!--产品-->
+<section class="productul" id="productul">
+     <ul>
+         <li>
+            <a href="#">
+            <!--商品图片-->
+             <div class="triangle-topleft"></div>
+             <span class="shuxing" data_url="productinfo.html">专属</span>
+             <div class="leftimages fl"><canvas data-src="images/product/pro1.jpg" ></canvas></div>
+             <!--商品详情-->
+             <div class="productcontent fr">
+                 <p class="ptitle pl10">芒果干</p>
+                  <p class="pdes pl10">女神蜜饯果脯东南亚零食酸甜水果干片类休闲食品</p>
+                  <p class="pprice pl10">价格：<span class="green">￥23.9</span></p>
+             </div>
+           </a>
+         </li>
+         <li>
+            <a href="#">
+            <!--商品图片-->
+             <div class="triangle-topleft rexiao"></div>
+             <span class="shuxing" data_url="productinfo.html">热销</span>
+             <div class="leftimages fl"><canvas data-src="images/product/pro2.jpg" ></canvas></div>
+             <!--商品详情-->
+             <div class="productcontent fr">
+                 <p class="ptitle pl10">鸡蛋干</p>
+                  <p class="pdes pl10">小包装四川特产香辣味豆腐干小吃零食麻辣休闲食品</p>
+                  <p class="pprice pl10">价格：<span class="green">￥17</span></p>
+             </div>
+           </a>
+         </li>
+         <li>
+            <a href="#">
+            <!--商品图片-->
+             <div class="triangle-topleft xiangou"></div>
+             <span class="shuxing" data_url="productinfo.html">限购</span>
+             <div class="leftimages fl"><canvas data-src="images/product/pro3.jpg" ></canvas></div>
+             <!--商品详情-->
+             <div class="productcontent fr">
+                 <p class="ptitle pl10">靖江猪肉脯</p>
+                  <p class="pdes pl10">特产肉类零食小吃休闲干肉脯麻辣食品小包装</p>
+                  <p class="pprice pl10">价格：<span class="green">￥38</span></p>
+             </div>
+           </a>
+         </li>
+         
+     </ul>	
+
+
+
+</section>
+<script src="script/libs/jquery.js"></script>
+ <script src="script/libs/require.js"  data-main="script/views/enterjs/mainconfig"></script>
+ 
+</body>
+</html>

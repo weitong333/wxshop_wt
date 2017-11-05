@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes"  />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no">
+    <title>移动端前端实训</title>
+    <link rel="apple-touch-icon-precomposed" href="images/haoroomsicon.jpg" />
+    <link rel="apple-touch-startup-image" href="images/haoroomsicon.jpg" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+	                    <!--商品详情-->
+<!--固定头部-->
+<nav id="nav">
+      <ul class="navlist">
+        <li id="n_0"><a href="index.html"><span></span></a></li>
+        <li id="n_1"><a href="productlist.html" ><span class="active"></span></a></li>
+        <li id="n_2"><a href="cart.html" ><span></span></a><div class="cartnums" style="display:none"></div></li>
+        <li id="n_3"><a href="userinfo.html" ><span></></span></a></li>
+     </ul>
+</nav>
+<!--商品介绍-->
+<section class="recommendcontent">
+    <ul>
+         <li class="setyuanjiao">
+             <a class="leftimages fl mt15" id="productimg"><img src="images/product/pro1.jpg" /></a>
+             <a  class="productcontent fl mt15">
+                 <p class="ptitle pl10">芒果干</p>
+                  <p class="pdes pl10">女神蜜饯果脯东南亚零食酸甜水果干片类休闲食品</p>
+                  <p class="pprice pl10">价格：<span class="green">￥23.9</span></p>
+             </a>
+         </li>
+         <!-- 购买情况 -->
+         <li class="buynumsli">
+             <div class="buylabel">购买数量：</div>
+             <div class="buynuminput">
+                 <div class="reduce"  id="reducenums"></div>
+                 <input type="number"  id="cartnumbers" class="itnums" name="qty_item_1"  value="1"   />
+                 <div class="add" id="addnums"></div>
+             </div>
+         </li>
+     </ul>
+     
+     <div class="decorations">
+         <div class="dtitle">详细说明</div>
+         <p>芒果干是用芒果制作的一道小吃，有益胃、止呕、止晕的功效。因此，芒果对于眩晕症、梅尼埃综合症、恶心呕吐等均有疗效。此外，常食芒果对老人和经常用眼过度的人、女士都有保健作用。</p>
+         <img src="images/product/pro1.jpg" />
+         
+     </div>
+
+</section>
+<!-- 加入购物车 -->
+ <section class="addcart">
+     <input type="button" class="addcartbtn" value="加入购物车" />
+ </section>
+
+<script src="script/libs/jquery.js"></script>
+ <script src="script/libs/require.js"  data-main="script/views/enterjs/mainconfig"></script>
+</body>
+</html>
