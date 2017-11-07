@@ -683,6 +683,11 @@ li {
         float: left;
         overflow: hidden;
         margin: 1.2rem 0 0 0.5rem; }
+        .recommendcontent ul .buynumsli .buynuminput input::-webkit-outer-spin-button, .recommendcontent ul .buynumsli .buynuminput input::-webkit-inner-spin-button {
+          -webkit-appearance: none !important;
+          margin: 0; }
+        .recommendcontent ul .buynumsli .buynuminput input[type="number"] {
+          -moz-appearance: textfield; }
         .recommendcontent ul .buynumsli .buynuminput .reduce {
           float: left;
           width: 3.5rem;
@@ -858,6 +863,11 @@ li {
           float: left;
           overflow: hidden;
           margin: 1.2rem 0 0 1.5rem; }
+          .cart_content .cartlist li .productoperate .buynuminput input::-webkit-outer-spin-button, .cart_content .cartlist li .productoperate .buynuminput input::-webkit-inner-spin-button {
+            -webkit-appearance: none !important;
+            margin: 0; }
+          .cart_content .cartlist li .productoperate .buynuminput input[type="number"] {
+            -moz-appearance: textfield; }
           .cart_content .cartlist li .productoperate .buynuminput span.delbtn {
             width: 20px;
             height: 24px;
@@ -921,7 +931,8 @@ li {
   margin: 0 auto;
   min-height: 300px;
   position: relative;
-  width: 99%; }
+  width: 99%;
+  padding-bottom: 60px; }
 
 .add_operate {
   font-size: 16px;
@@ -1008,6 +1019,12 @@ li {
   height: 38px;
   margin: 5px 0;
   width: 78px; }
+
+#address_form li:nth-child(4) input::-webkit-outer-spin-button, #address_form li:nth-child(4) input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0; }
+#address_form li:nth-child(4) input[type="number"] {
+  -moz-appearance: textfield; }
 
 .fill_in_content, .voiceinfo {
   padding: 10px;
@@ -1161,6 +1178,11 @@ li {
 .addresscontent {
   padding: 10px;
   margin-right: 15px; }
+  .addresscontent li:nth-child(4) input::-webkit-outer-spin-button, .addresscontent li:nth-child(4) input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0; }
+  .addresscontent li:nth-child(4) input[type="number"] {
+    -moz-appearance: textfield; }
 
 .submit_address {
   width: 100%;
@@ -1525,6 +1547,12 @@ li {
   overflow: hidden;
   position: relative;
   padding: 5px 10px; }
+
+.logging ul li:nth-child(1) input::-webkit-outer-spin-button, .logging ul li:nth-child(1) input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0; }
+.logging ul li:nth-child(1) input[type="number"] {
+  -moz-appearance: textfield; }
 
 .logging ul li s {
   width: 24px;

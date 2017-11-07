@@ -40,6 +40,8 @@
     .buynumsli {min-height: 5rem;margin-top:-1rem;-moz-border-radius-bottom-left:1rem;border-bottom-left-radius:1rem;-moz-border-radius-bottom-right:1rem;border-bottom-right-radius:1rem;
       .buylabel{font-size:1.4rem;float:left;margin:1.5rem 0.2rem 0rem 1rem;font-family: "Microsoft YaHei";}
       .buynuminput{float:left;overflow:hidden;margin:1.2rem 0 0 0.5rem;
+      	input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance:none !important;margin: 0;}
+      	input[type="number"]{-moz-appearance:textfield;}
         .reduce{float:left;width:3.5rem;height:2.5rem; border:0.1rem solid #ccc; border-right:none; cursor: pointer; background: url("../images/reduce.gif") center center no-repeat;}
         .itnums{float:left;width:8rem;height:2.5rem;border:0.1rem solid #ccc;  text-align: center;font-size:1.4rem;color:#990000;font-weight:800;}
         .add{float:left;width:3.5rem;height:2.5rem; border:0.1rem solid #ccc; border-left:none;cursor: pointer;background: url("../images/add.gif") center center no-repeat;}

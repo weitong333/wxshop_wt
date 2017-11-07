@@ -65,6 +65,10 @@ $maincolor:#28c728;
 .uc_return_c{float: left; width: 100%;}
 .logging ul{margin: 22px 0; font-size: 1.4rem; line-height: 23px;}
 .logging ul li{overflow: hidden; position: relative;padding: 5px 10px;}
+.logging ul li:nth-child(1){
+	input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance:none !important;margin: 0;}
+    input[type="number"]{-moz-appearance:textfield;}
+}
 .logging ul li s{width: 24px; height: 34px; display:inline-block;margin-right: 15px; background: url(../images/head_gray.png) no-repeat 0 center; background-size: 24px auto;vertical-align: middle;}
 .logging ul li input{border: none; line-height: 34px; font-size: 1.4rem;width:80%;width:calc(100% - 50px);}
 .logging ul li:nth-of-type(2) s{background: url(../images/uc_logging_password.png) no-repeat center center; background-size: 18px auto;}
